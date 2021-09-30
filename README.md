@@ -101,38 +101,41 @@ Open the graphQL endpoint on: http://localhost:3000/graphql
 
 ###  Screenshots
 
-  ## Fig 1 :  
+  ## Fig 1 : Default value of booking capacity
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookingCapacity_default.png)
   
-  ## Fig 2 : 
+  ## Fig 2 : Set/Get Booking Capacity
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/setBookingCapacity.png)
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookingCapacity_postUpdate.png)
    
-  ## Fig 3 :  
+  ## Fig 3 : Invalid Booking Capacity Value
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/invalidBookingCapacity.png)
  
-  ## Fig 4 : 
+  ## Fig 4 : Get Default Bookings
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookings_default.png)
  
-  ## Fig 5 : 
+  ## Fig 5 : Add Valid Booking
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/addBooking.png)
   
-  ## Fig 6 : 
+  ## Fig 6 : Get All Bookings
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookings_all.png)
   
-  ## Fig 7 :
+  ## Fig 7 : Filter Bookings based on Booking Date
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookings_bookingDateTime.png)
   
-  ## Fig 8 :
+   ## Fig 8 : Filter Bookings based on VIN
+  ![Screenshot](https://github.com/sreenidhithallam/dealership-booking-system/blob/main/screenshots/getBookings_VIN.png)
+  
+  ## Fig 9 : Invalid Inputs
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/invalidInputs.png)
   
-  ## Fig 9 : 
+  ## Fig 10 : Invalid Vehicle VIN
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/invalidVehicleVIN.png)
   
-  ## Fig 10 : 
+  ## Fig 11 : Booking Outside Working Hours
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/outsideWorkingHours.png)
   
-  ## Fig 11 : 
+  ## Fig 12 : Exceeds Capacity
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/exceedsCapacity.png)
   
   ## Fig 12 : Test Case Execution
