@@ -32,12 +32,12 @@ High level directory structure for this repository:
 ```        
   
 ## Technologies Used
-- NodeJS
-- GraphQL
-- LokiDB 
-- REST
-- Swagger UI
--  Mocha, Chai and Sinon
+- [Node Js](https://nodejs.org/en/download/)
+- [GraphQL](https://graphql.org/)
+- [LokiDB](https://github.com/LokiJS-Forge/LokiDB) 
+- [REST](https://restfulapi.net/)
+- [Swagger UI](https://swagger.io/tools/swagger-ui/)
+- [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/) and [Sinon](https://sinonjs.org/)
 
 ## Highlights
 
@@ -135,53 +135,57 @@ Open the graphQL endpoint on: http://localhost:3000/graphql
 
 ###  Screenshots
 
-  ## Fig 1 : Default value of booking capacity
+  ## Fig 1 : Default value for booking capacity
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookingCapacity_default.png)
   
-  ## Fig 2 : Set/Get Booking Capacity
+  ## Fig 2 : Set/Get booking capacity
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/setBookingCapacity.png)
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookingCapacity_postUpdate.png)
    
-  ## Fig 3 : Invalid Booking Capacity Value
+  ## Fig 3 : Invalid booking capacity Value
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/invalidBookingCapacity.png)
  
-  ## Fig 4 : Get Default Bookings
+  ## Fig 4 : Get default bookings
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookings_default.png)
  
-  ## Fig 5 : Add Valid Booking
+  ## Fig 5 : Add valid booking
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/addBooking.png)
   
-  ## Fig 6 : Get All Bookings
+  ## Fig 6 : Get all bookings
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookings_all.png)
   
-  ## Fig 7 : Filter Bookings based on Booking Date
+  ## Fig 7 : Filter bookings based on booking Date
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookings_bookingDateTime.png)
   
-   ## Fig 8 : Filter Bookings based on VIN
+   ## Fig 8 : Filter bookings based on VIN
   ![Screenshot](https://github.com/sreenidhithallam/dealership-booking-system/blob/main/screenshots/getBookings_VIN.png)
   
-  ## Fig 9 : Invalid Inputs
+  ## Fig 9 : Invalid inputs
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/invalidInputs.png)
   
-  ## Fig 10 : Invalid Vehicle VIN
+  ## Fig 10 : Invalid vehicle VIN
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/invalidVehicleVIN.png)
   
-  ## Fig 11 : Booking Outside Working Hours
+  ## Fig 11 : Booking outside working hours
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/outsideWorkingHours.png)
   
-  ## Fig 12 : Exceeds Capacity
+  ## Fig 12 : Exceeds capacity
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/exceedsCapacity.png)
   
-  ## Fig 12 : Test Case Execution
+  ## Fig 12 : Test case execution
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/tests_1.png)
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/tests_2.png)
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/testCoverage.png)
     
-  ## Fig 13 : Swagger Docs
+  ## Fig 13 : Swagger docs
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/swagger.png)
   
   ## Fig 14 : Screenshots of all steps available [here](https://github.com/sreenidhithallam/vehicle-booking-system/tree/main/screenshots)
   
   
 ###  Future Improvements
+1. Build a front end
+2. Add Logging Framework to log to the right log files with appropriate log level
+3. Connect to a real DB instead of in-memory DB
+4. Integrate security scans
 
