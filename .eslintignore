@@ -1,0 +1,8 @@
+.nyc_output
+node_modules
+_lint
+checkstyle
+coverage
+spec
+test/__snapshot__
+bookings.db

@@ -1,0 +1,27 @@
+{
+    "env": {
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "comma-dangle": [
+            2,
+            {
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "always-multiline",
+                "exports": "always-multiline",
+                "functions": "always-multiline"
+            }
+        ],
+        "eqeqeq": 0,
+        "strict": 0,
+        "no-plusplus": 0,
+        "no-console": 2,
+        "no-continue": 0,
+        "no-process-exit": 2,
+        "no-underscore-dangle": 0
+    }
+}
