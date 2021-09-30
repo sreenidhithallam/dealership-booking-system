@@ -1,10 +1,30 @@
 # BookNow - Dealership Booking System
 
 ## Overview
-BookNow is an MVP program that would manage bookings for a Dealership. The program should be able to accept or reject bookings based on availabilities.
+BookNow is an MVP program that would manage bookings for a Dealership. The program should be able to accept or reject bookings based on availabilities. Initially I have built the project using REST and utilized Swagger UI. Later, I have added GraphQL support as well. Thus I have included both the REST endpoints and GraphQL endpoint in this repo with appropriate execution steps.
 
-### Tech Stack
+## Technologies Used
+- NodeJS
+- GraphQL
+- LokiDB 
+- REST
+- Swagger UI
+-  Mocha, Chai and Sinon
 
+## Highlights
+
+- The application is accessible by REST endpoints.
+- The application is accessible by GraphQL endpoint.
+- The application is accessible via Swagger UI Docs.
+
+- Backend is developed by Node JS.
+- Loki DB is used as an in-memory database.
+- Prettier is used as a  code formatter.
+- Eslint is used for lint-check.
+- Mocha, Chai and Sinon are used for testing
+
+
+## Project Details
 
 ### Definition
 - The working hours of a dealership is 9AM - 5PM 
@@ -35,7 +55,7 @@ Extra points:
 Endpoint that would return the bookings for a vehicle VIN.
 
 
-### Instructions
+### Instructions to run
 
 ## 1. Clone the project
 ```bash
@@ -81,8 +101,6 @@ Open the graphQL endpoint on: http://localhost:3000/graphql
 
 ###  Screenshots
 
-
-## Scenario 1 
   ## Fig 1 :  
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookingCapacity_default.png)
   
@@ -129,3 +147,4 @@ Open the graphQL endpoint on: http://localhost:3000/graphql
   
   
 ###  Future Improvements
+
