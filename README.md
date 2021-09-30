@@ -48,12 +48,18 @@ An endpoint that allows us to create a Booking, with the following data:
 
 **Booking:** 
 - Date/Time 
-Return proper error if booking isn't possible (exceeds capacity, outside of working hours). 
-Booking Retrieval Endpoint: 
+
+The app will return proper error if booking isn't possible (exceeds capacity, outside of working hours). 
+
+#### Booking Retrieval Endpoint: 
 Endpoint that would return all the Bookings for a provided Day. 
-Extra points: 
+
+#### Extra points: 
 Endpoint that would return the bookings for a vehicle VIN.
 
+#### Assumptions
+1.  As the booking is allowed only till 5 PM and every booking is 2 hours long, the last legitimate booking can happen only till 3 PM.
+2.  Saturday & Sunday are considered as holidays 
 
 ### Instructions to run
 
