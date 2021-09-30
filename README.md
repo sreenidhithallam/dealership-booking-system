@@ -1,4 +1,37 @@
-# BookNow - Dealership Booking System
+<h2 align="center">BookNow</h2>
+<p align="center">Dealership Booking System</p>
+
+<p align="center">
+  <a href="https://nodejs.org/en/download/">
+    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=whites" alt="Version">
+
+  </a>
+  <a href="https://graphql.org/">
+    <img src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="Code Version">
+  </a>
+   <a href="https://github.com/LokiJS-Forge/LokiDB">
+    <img src="https://img.shields.io/badge/LokiDB-E10029?style=for-the-badge&logo=lokidb&logoColor=white" alt="Code Version">
+  </a>
+  <a href="https://restfulapi.net/">
+    <img src="https://img.shields.io/badge/REST-1572B6?style=for-the-badge&logo=restapi&logoColor=white" alt="Code Version">
+  </a>
+   <a href="https://swagger.io/tools/swagger-ui/">
+    <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Code Version">
+  </a>
+   <a href="https://mochajs.org/">
+    <img src="https://img.shields.io/badge/-mocha-%238D6748?style=for-the-badge&logo=mocha&logoColor=white" alt="Code Version">
+  </a>
+  <a href="https://www.chaijs.com/">
+    <img src="https://img.shields.io/badge/-chai-B1361E?style=for-the-badge&logo=chai&logoColor=white" alt="Code Version">
+  </a>
+  <a href="https://sinonjs.org/">
+    <img src="https://img.shields.io/badge/-Sinon-372213?style=for-the-badge&logo=sinon&logoColor=white" alt="Code Version">
+  </a>
+
+  </a>
+</p>
+<br>
+
 
 ## Overview
 BookNow is an MVP program that could be used to manage bookings for a Dealership. The program is able to accept or reject bookings based on availabilities. Initially I have built the project using REST and utilized Swagger UI. Later, I have added GraphQL support as well. Thus I have included both the REST endpoints as well as  GraphQL endpoint in this repo with appropriate execution steps.
