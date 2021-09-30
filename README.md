@@ -37,7 +37,7 @@ High level directory structure for this repository:
 - [LokiDB](https://github.com/LokiJS-Forge/LokiDB) 
 - [REST](https://restfulapi.net/)
 - [Swagger UI](https://swagger.io/tools/swagger-ui/)
-- [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/) and [Sinon](https://sinonjs.org/)
+- [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/), [Sinon](https://sinonjs.org/)
 
 ## Highlights
 
@@ -49,7 +49,7 @@ High level directory structure for this repository:
 - Loki DB is used as an in-memory database.
 - Prettier is used as a  code formatter.
 - Eslint is used for lint-check.
-- Mocha, Chai and Sinon are used for testing
+- Mocha, Chai and Sinon are used for testing.
 
 
 ## Project Details
@@ -87,7 +87,7 @@ Endpoint that would return the bookings for a vehicle VIN.
 
 #### Assumptions
 1.  As the booking is allowed only till 5 PM and every booking is 2 hours long, the last legitimate booking can happen only till 3 PM.
-2.  Saturday & Sunday are considered as holidays 
+2.  Saturday & Sunday are considered as holidays. 
 
 ### Instructions to run
 
