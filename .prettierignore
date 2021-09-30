@@ -1,0 +1,5 @@
+.nyc_output
+.eslintrc.json
+package.json
+package-lock.json
+spec/
