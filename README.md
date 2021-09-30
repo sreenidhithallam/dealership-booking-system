@@ -89,9 +89,9 @@ Endpoint that would return the bookings for a vehicle VIN.
 1.  As the booking is allowed only till 5 PM and every booking is 2 hours long, the last legitimate booking can happen only till 3 PM.
 2.  Saturday & Sunday are considered as holidays. 
 
-### Instructions to run
+## Instructions to run
 
-## 1. Clone the project
+### 1. Clone the project
 ```bash
 $ git clone https://github.com/sreenidhithallam/vehicle-booking-system.git
 ```
@@ -100,14 +100,14 @@ $ git clone https://github.com/sreenidhithallam/vehicle-booking-system.git
 $ cd vehicle-booking-system
 ```
 
-## 2. Install packages
+### 2. Install packages
 
 
 ```
 $ npm install
 ```
 
-## 3. Running the app
+### 3. Run the app
 
 ```
 $ npm start
