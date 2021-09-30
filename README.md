@@ -1,14 +1,83 @@
-# vehicle-booking-system :   
+# BookNow - Booking Manager
 
 ## Overview
+BookNow is an MVP program that would manage bookings for a Dealership. The program should be able to accept or reject bookings based on availabilities.
 
-### Getting Started
+### Tech Stack
 
-### Dependencies
 
-### Scenarios Covered
+### Definition
+- The working hours of a dealership is 9AM - 5PM 
+- A Booking is 2 hours long. 
+
+#### Booking Capacity Endpoint: 
+The booking capacity should be able to be define via an endpoint (default should be 2). Meaning that 2 bookings can be executed at the same time. 
+
+#### Booking creation Endpoint: 
+An endpoint that allows us to create a Booking, with the following data: 
+
+**Customer:** 
+- Customer Name
+- Customer Email 
+- Customer Phone Number 
+
+**Vehicle:** 
+- Vehicle Make 
+- Vehicle Model 
+- Vehicle VIN (17 length String) 
+
+**Booking:** 
+- Date/Time 
+Return proper error if booking isn't possible (exceeds capacity, outside of working hours). 
+Booking Retrieval Endpoint: 
+Endpoint that would return all the Bookings for a provided Day. 
+Extra points: 
+Endpoint that would return the bookings for a vehicle VIN.
+
 
 ### Instructions
+
+## 1. Clone the project
+```bash
+$ git clone https://github.com/sreenidhithallam/vehicle-booking-system.git
+```
+
+```bash
+$ cd vehicle-booking-system
+```
+
+## 2. Install packages
+
+
+```
+$ npm install
+```
+
+## 3. Running the app
+
+```
+$ npm start
+```
+
+
+## 4. EndPoints
+
+The project has been implemented with both REST and GraphQL.
+
+### REST Endpoints
+
+    1. GET /bookingCapacity - gets the dealer's booking capacity 
+    2. PUT /bookingCapacity - updates the dealer's booking capacity 
+    3. GET /bookings - gets the bookings
+    4. POST /bookings - creates the booking
+
+### Swagger Endpoint
+Open the swagger docs endpoint on: http://localhost:3000/docs
+
+### GraphQL Endpoint
+Open the graphQL endpoint on: http://localhost:3000/graphql
+
+
 
 ###  Screenshots
 
