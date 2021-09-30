@@ -1,8 +1,36 @@
 # BookNow - Dealership Booking System
 
 ## Overview
-BookNow is an MVP program that would manage bookings for a Dealership. The program should be able to accept or reject bookings based on availabilities. Initially I have built the project using REST and utilized Swagger UI. Later, I have added GraphQL support as well. Thus I have included both the REST endpoints and GraphQL endpoint in this repo with appropriate execution steps.
+BookNow is an MVP program that could be used to manage bookings for a Dealership. The program is able to accept or reject bookings based on availabilities. Initially I have built the project using REST and utilized Swagger UI. Later, I have added GraphQL support as well. Thus I have included both the REST endpoints as well as  GraphQL endpoint in this repo with appropriate execution steps.
 
+## Repo Details
+
+High level directory structure for this repository:
+
+```bash
+├───lib
+│   ├───constants 
+│   ├───controller
+│   │   ├───booking
+│   │   └───booking-capacity
+│   ├───db-operations
+│   ├───errors
+│   ├───graphql
+│   │   ├───schema
+│   │   │   ├───booking
+│   │   │   └───booking-capacity
+│   │   └───typedefs
+│   ├───helper
+│   └───swagger
+├───screenshots
+└───test
+    └───lib
+        ├───controller
+        │   ├───booking
+        │   └───booking-capacity
+        └───helper
+```        
+  
 ## Technologies Used
 - NodeJS
 - GraphQL
