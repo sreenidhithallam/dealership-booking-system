@@ -4,7 +4,7 @@ const { isBookingInsideWorkingWindow } = require('../../../lib/helper/booking-wi
 
 describe('test isBookingInsideWorkingWindow function', function () {
     it('when booking time is within the working window', function () {
-        assert.equal(isBookingInsideWorkingWindow('2021-09-30T10:45:47.344Z'), true);
+        assert.equal(isBookingInsideWorkingWindow('2021-09-30T08:45:47.344Z'), true);
     });
     it('when booking time is outside the working window', function () {
         assert.equal(isBookingInsideWorkingWindow('2021-09-28T16:17:37.204Z'), false);
