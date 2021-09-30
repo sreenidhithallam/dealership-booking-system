@@ -1,0 +1,21 @@
+{
+  "branches": 100,
+  "checkCoverage": true,
+  "functions": 100,
+  "include": [
+    "lib"
+  ],
+  "exclude": [
+    "lib/db-operations"
+  ],
+  "lines": 100,
+  "reporter": [
+    "lcov",
+    "cobertura",
+    "text",
+    "text-summary"
+  ],
+  "sourceMap": false,
+  "statements": 100,
+  "report-dir": "./spec/reports"
+}
