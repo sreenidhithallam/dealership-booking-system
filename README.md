@@ -1,4 +1,4 @@
-# BookNow - Booking Manager
+# BookNow - Dealership Booking System
 
 ## Overview
 BookNow is an MVP program that would manage bookings for a Dealership. The program should be able to accept or reject bookings based on availabilities.
