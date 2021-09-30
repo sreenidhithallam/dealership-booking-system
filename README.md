@@ -1,10 +1,12 @@
-# vehicle-booking-system : 
+# vehicle-booking-system :   
 
 ## Overview
 
 ### Getting Started
 
 ### Dependencies
+
+### Scenarios Covered
 
 ### Instructions
 
