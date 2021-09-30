@@ -9,7 +9,7 @@ describe('test validateInput function', function () {
             errorInfo: [
                 errors.MISSING_CUSTOMER_NAME,
                 errors.MISSING_CUSTOMER_PHONE_NUMBER,
-                errors.MISSING_CUSTOMER_EMAIL,
+                errors.MISSING_CUSTOMER_EMAIL_ID,
                 errors.MISSING_VEHICLE_MAKE,
                 errors.MISSING_VEHICLE_MODEL,
                 errors.MISSING_VEHICLE_VIN,
@@ -55,7 +55,7 @@ describe('test validateInput function', function () {
             }),
             {
                 isError: true,
-                errorInfo: [errors.INVALID_CUSTOMER_EMAIL],
+                errorInfo: [errors.INVALID_CUSTOMER_EMAIL_ID],
             },
         );
     });
