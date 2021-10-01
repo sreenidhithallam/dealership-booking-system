@@ -1,7 +1,7 @@
 {
     "name": "BookNow",
     "version": "1.0.0",
-    "description": "An MVP program that could be used to manage bookings for a Dealership",
+    "description": "An MVP program that manage bookings for a Dealership",
     "main": "app.js",
     "scripts": {
         "format": "prettier --write '**/*.{md,js,json}' '!reports/*' '!**/dist/*'",
@@ -12,7 +12,7 @@
         "start": "node ./lib/app.js",
         "start:debug": "nodemon lib/app.js"
     },
-    "author": "sreenidhi Thallam",
+    "author": "Sreenidhi Thallam",
     "license": "ISC",
     "dependencies": {
         "body-parser": "^1.19.0",
