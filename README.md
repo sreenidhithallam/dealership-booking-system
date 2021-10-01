@@ -221,7 +221,7 @@ Open the graphQL endpoint on: http://localhost:3000/graphql
   
   
 ##  Future Improvements
-1. Build a front end.
+1. Build a front end and integrate it with backend.
 2. Add Logging Framework to log to the right log files with appropriate log level.
 3. Connect to a real DB instead of in-memory DB.
 4. Integrate security scans.
