@@ -4,7 +4,6 @@
 <p align="center">
   <a href="https://nodejs.org/en/download/">
     <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=whites" alt="Version">
-
   </a>
   <a href="https://graphql.org/">
     <img src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="Code Version">
@@ -19,15 +18,21 @@
     <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Code Version">
   </a>
    <a href="https://mochajs.org/">
-    <img src="https://img.shields.io/badge/-mocha-%238D6748?style=for-the-badge&logo=mocha&logoColor=white" alt="Code Version">
+    <img src="https://img.shields.io/badge/-Mocha-%238D6748?style=for-the-badge&logo=mocha&logoColor=white" alt="Code Version">
   </a>
   <a href="https://www.chaijs.com/">
-    <img src="https://img.shields.io/badge/-chai-B1361E?style=for-the-badge&logo=chai&logoColor=white" alt="Code Version">
+    <img src="https://img.shields.io/badge/-Chai-B1361E?style=for-the-badge&logo=chai&logoColor=white" alt="Code Version">
   </a>
   <a href="https://sinonjs.org/">
     <img src="https://img.shields.io/badge/-Sinon-372213?style=for-the-badge&logo=sinon&logoColor=white" alt="Code Version">
   </a>
-
+ <a href="https://eslint.org/">
+    <img src="https://img.shields.io/badge/-Eslint-6933FF?style=for-the-badge&logo=eslint&logoColor=white" alt="Code Version">
+  </a>
+   <a href="https://prettier.io/">
+    <img src="https://img.shields.io/badge/-Prettier-092E20?style=for-the-badge&logo=prettier&logoColor=white" alt="Code Version">
+  </a>
+  
   </a>
 </p>
 <br>
@@ -74,15 +79,15 @@ High level directory structure for this repository:
 
 ## Highlights
 
-- The application is accessible by REST endpoints.
-- The application is accessible by GraphQL endpoint.
-- The application is accessible via Swagger UI Docs.
+- The application is accessible by [REST](https://restfulapi.net/) endpoints.
+- The application is accessible by [GraphQL](https://graphql.org/) endpoint.
+- The application is accessible via [Swagger UI](https://swagger.io/tools/swagger-ui/) Docs.
 
-- Backend is developed by Node JS.
-- Loki DB is used as an in-memory database.
-- Prettier is used as a  code formatter.
-- Eslint is used for lint-check.
-- Mocha, Chai and Sinon are used for testing.
+- Backend is developed by [Node Js](https://nodejs.org/en/download/).
+- [LokiDB](https://github.com/LokiJS-Forge/LokiDB)  is used as an in-memory database.
+- [Prettier](https://prettier.io/) is used as a  code formatter.
+- [Eslint](https://eslint.org/) is used for lint-check.
+- [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/), [Sinon](https://sinonjs.org/) are used for testing.
 
 
 ## Project Details
