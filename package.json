@@ -1,7 +1,7 @@
 {
     "name": "BookNow",
     "version": "1.0.0",
-    "description": "",
+    "description": "An MVP program that could be used to manage bookings for a Dealership",
     "main": "app.js",
     "scripts": {
         "format": "prettier --write '**/*.{md,js,json}' '!reports/*' '!**/dist/*'",
