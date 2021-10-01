@@ -151,7 +151,7 @@ $ npm start
 ```
 
 
-## 4. EndPoints
+## EndPoints
 
 The project has been implemented with both REST and GraphQL.
 
@@ -170,57 +170,57 @@ Open the graphQL endpoint on: http://localhost:3000/graphql
 
 
 
-###  Screenshots
+##  Screenshots
 
-  ## Fig 1 : Default value for booking capacity
+  ### Fig 1 : Default value for booking capacity
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookingCapacity_default.png)
   
-  ## Fig 2 : Set/Get booking capacity
+  ### Fig 2 : Set/Get booking capacity
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/setBookingCapacity.png)
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookingCapacity_postUpdate.png)
    
-  ## Fig 3 : Invalid booking capacity Value
+  ### Fig 3 : Invalid booking capacity Value
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/invalidBookingCapacity.png)
  
-  ## Fig 4 : Get default bookings
+  ### Fig 4 : Get default bookings
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookings_default.png)
  
-  ## Fig 5 : Add valid booking
+  ### Fig 5 : Add valid booking
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/addBooking.png)
   
-  ## Fig 6 : Get all bookings
+  ### Fig 6 : Get all bookings
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookings_all.png)
   
-  ## Fig 7 : Filter bookings based on booking Date
+  ### Fig 7 : Filter bookings based on booking Date
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookings_bookingDateTime.png)
   
-   ## Fig 8 : Filter bookings based on VIN
+  ### Fig 8 : Filter bookings based on VIN
   ![Screenshot](https://github.com/sreenidhithallam/dealership-booking-system/blob/main/screenshots/getBookings_VIN.png)
   
-  ## Fig 9 : Invalid inputs
+  ### Fig 9 : Invalid inputs
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/invalidInputs.png)
   
-  ## Fig 10 : Invalid vehicle VIN
+  ### Fig 10 : Invalid vehicle VIN
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/invalidVehicleVIN.png)
   
-  ## Fig 11 : Booking outside working hours
+  ### Fig 11 : Booking outside working hours
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/outsideWorkingHours.png)
   
-  ## Fig 12 : Exceeds capacity
+  ### Fig 12 : Exceeds capacity
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/exceedsCapacity.png)
   
-  ## Fig 12 : Test case execution
+  ### Fig 13 : Test case execution
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/tests_1.png)
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/tests_2.png)
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/testCoverage.png)
     
-  ## Fig 13 : Swagger docs
+  ### Fig 14 : Swagger docs
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/swagger.png)
   
-  ## Fig 14 : Screenshots of all steps available [here](https://github.com/sreenidhithallam/vehicle-booking-system/tree/main/screenshots)
+  ### Screenshots of all steps available [here](https://github.com/sreenidhithallam/vehicle-booking-system/tree/main/screenshots)
   
   
-###  Future Improvements
+##  Future Improvements
 1. Build a front end.
 2. Add Logging Framework to log to the right log files with appropriate log level.
 3. Connect to a real DB instead of in-memory DB.
