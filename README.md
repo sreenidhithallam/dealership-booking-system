@@ -68,14 +68,6 @@ High level directory structure for this repository:
         │   └───booking-capacity
         └───helper
 ```        
-  
-## Technologies Used
-- [Node Js](https://nodejs.org/en/download/)
-- [GraphQL](https://graphql.org/)
-- [LokiDB](https://github.com/LokiJS-Forge/LokiDB) 
-- [REST](https://restfulapi.net/)
-- [Swagger UI](https://swagger.io/tools/swagger-ui/)
-- [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/), [Sinon](https://sinonjs.org/)
 
 ## Highlights
 
