@@ -126,7 +126,7 @@ $ git clone https://github.com/sreenidhithallam/vehicle-booking-system.git
 ```
 
 ```bash
-$ cd vehicle-booking-system
+$ cd dealership-booking-system
 ```
 
 ### 2. Install packages
