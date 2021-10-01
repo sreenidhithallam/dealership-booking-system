@@ -122,7 +122,7 @@ Endpoint that would return the bookings for a vehicle VIN.
 
 ### 1. Clone the project
 ```bash
-$ git clone https://github.com/sreenidhithallam/vehicle-booking-system.git
+$ git clone https://github.com/sreenidhithallam/dealership-booking-system
 ```
 
 ```bash
@@ -141,8 +141,11 @@ $ npm install
 ```
 $ npm start
 ```
+## Instructions to run testcases
 
-
+```
+$ npm run  test:coverage
+```
 ## EndPoints
 
 The project has been implemented with both REST and GraphQL.
