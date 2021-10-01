@@ -89,7 +89,7 @@
                                 },
                                 "examples": {
                                     "1": {
-                                        "value": "{ \"code\": \"INVALID_BOOKING_CAPACITY\", \"message\": \"Please provide a positive number for the booking capacity\", \"status\": 400}"
+                                        "value": "{ \"code\": \"INVALID_BOOKING_CAPACITY\", \"message\": \"Please provide a positive number for the booking capacity\"}"
                                     }
                                 }
                             }
@@ -176,42 +176,42 @@
                                         },
                                         "message": {
                                             "type": "string"
-                                        },
-                                        "status": {
-                                            "type": "number"
                                         }
                                     }
                                 },
                                 "examples": {
                                     "EXCEEDS_CAPACITY": {
-                                        "value": "{ \"code\": \"EXCEEDS_CAPACITY\", \"message\": \"Please provide different booking datetime within capacity\", \"status\": 400}"
+                                        "value": "{ \"code\": \"EXCEEDS_CAPACITY\", \"message\": \"Please provide different booking datetime within capacity\"}"
                                     },
                                     "OUTSIDE_WORKING_HOURS": {
-                                        "value": "{ \"code\": \"OUTSIDE_WORKING_HOURS\", \"message\": \"Please provide booking datetime within working hours\", \"status\": 400}"
+                                        "value": "{ \"code\": \"OUTSIDE_WORKING_HOURS\", \"message\": \"Please provide booking datetime within working hours\"}"
                                     },
                                     "MISSING_CUSTOMER_NAME": {
-                                        "value": "{ \"code\": \"MISSING_CUSTOMER_NAME\", \"message\": \"Please provide customer name\", \"status\": 400}"
+                                        "value": "{ \"code\": \"MISSING_CUSTOMER_NAME\", \"message\": \"Please provide customer name\"}"
                                     },
                                     "MISSING_CUSTOMER_EMAIL": {
-                                        "value": "{ \"code\": \"MISSING_CUSTOMER_EMAIL\", \"message\": \"Please provide customer email id\", \"status\": 400}"
+                                        "value": "{ \"code\": \"MISSING_CUSTOMER_EMAIL\", \"message\": \"Please provide customer email id\"}"
                                     },
                                     "MISSING_CUSTOMER_PHONE_NUMBER": {
-                                        "value": "{ \"code\": \"MISSING_CUSTOMER_PHONE_NUMBER\", \"message\": \"Please provide customer phone number\", \"status\": 400}"
+                                        "value": "{ \"code\": \"MISSING_CUSTOMER_PHONE_NUMBER\", \"message\": \"Please provide customer phone number\"}"
                                     },
                                     "MISSING_VEHICLE_MAKE": {
-                                        "value": "{ \"code\": \"MISSING_VEHICLE_MAKE\", \"message\": \"Please provide vehicle make\", \"status\": 400}"
+                                        "value": "{ \"code\": \"MISSING_VEHICLE_MAKE\", \"message\": \"Please provide vehicle make\"}"
                                     },
                                     "MISSING_VEHICLE_MODEL": {
-                                        "value": "{ \"code\": \"MISSING_VEHICLE_MODEL\", \"message\": \"Please provide vehicle model\", \"status\": 400}"
+                                        "value": "{ \"code\": \"MISSING_VEHICLE_MODEL\", \"message\": \"Please provide vehicle model\"}"
                                     },
                                     "MISSING_VEHICLE_VIN": {
-                                        "value": "{ \"code\": \"MISSING_VEHICLE_VIN\", \"message\": \"Please provide vehicle VIN\", \"status\": 400}"
+                                        "value": "{ \"code\": \"MISSING_VEHICLE_VIN\", \"message\": \"Please provide vehicle VIN\"}"
                                     },
                                     "INVALID_VEHICLE_VIN": {
-                                        "value": "{ \"code\": \"INVALID_VEHICLE_VIN\", \"message\": \"Please provide valid vehicle VIN of length 17\", \"status\": 400}"
+                                        "value": "{ \"code\": \"INVALID_VEHICLE_VIN\", \"message\": \"Please provide valid vehicle VIN of length 17\"}"
                                     },
                                     "MISSING_BOOKING_DATE_TIME": {
-                                        "value": "{ \"code\": \"MISSING_BOOKING_DATE_TIME\", \"message\": \"Please provide booking datetime\", \"status\": 400}"
+                                        "value": "{ \"code\": \"MISSING_BOOKING_DATE_TIME\", \"message\": \"Please provide booking datetime\"}"
+                                    },
+                                    "INVALID_BOOKING_DATE_TIME": {
+                                        "value": "{ \"code\": \"INVALID_BOOKING_DATE_TIME\", \"message\": \"Please provide valid ISO string in UTC time standard\"}"
                                     }
                                 }
                             }
@@ -223,8 +223,7 @@
         "/bookings": {
             "get": {
                 "description": "Fetches the bookings based on the query parameters",
-                "parameters": [
-                    {
+                "parameters": [{
                         "name": "VIN",
                         "in": "query",
                         "description": "Vehicle number",
@@ -237,7 +236,7 @@
                     {
                         "name": "bookingDateTime",
                         "in": "query",
-                        "description": "booking datetime",
+                        "description": "booking datetime ISO string in UTC time standard",
                         "required": false,
                         "example": "2020-09-28T09:18:36.691Z",
                         "schema": {
@@ -264,6 +263,32 @@
                                 "examples": {
                                     "1": {
                                         "value": "{ \"bookings\": [{ \"customer\": { \"name\": \"foo\", \"phoneNumber\": 9876543210, \"email\": \"testuser@gmail.com\" }, \"vehicle\": { \"make\": \"volvo\", \"model\": \"XC40\", \"VIN\": \"12345678901234561\" }, \"bookingDateTime\": \"2020-09-28T09:18:36.691Z\" }]}"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Error when invalid VIN or booking datetime",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "code": {
+                                            "type": "string"
+                                        },
+                                        "message": {
+                                            "type": "string"
+                                        }
+                                    }
+                                },
+                                "examples": {
+                                    "INVALID_VEHICLE_VIN": {
+                                        "value": "{ \"code\": \"INVALID_VEHICLE_VIN\", \"message\": \"Please provide valid vehicle VIN of length 17\"}"
+                                    },
+                                    "INVALID_BOOKING_DATE_TIME": {
+                                        "value": "{ \"code\": \"INVALID_BOOKING_DATE_TIME\", \"message\": \"Please provide valid ISO string in UTC time standard\"}"
                                     }
                                 }
                             }
