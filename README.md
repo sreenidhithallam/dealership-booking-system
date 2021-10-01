@@ -79,9 +79,8 @@ High level directory structure for this repository:
 
 ## Highlights
 
-- The application is accessible by [REST](https://restfulapi.net/) endpoints.
-- The application is accessible by [GraphQL](https://graphql.org/) endpoint.
-- The application is accessible via [Swagger UI](https://swagger.io/tools/swagger-ui/) Docs.
+- The application is accessible by both [GraphQL](https://graphql.org/) and [REST](https://restfulapi.net/) endpoints.
+- The application is also accessible via [Swagger UI](https://swagger.io/tools/swagger-ui/) Docs.
 
 - Backend is developed by [Node Js](https://nodejs.org/en/download/).
 - [LokiDB](https://github.com/LokiJS-Forge/LokiDB)  is used as an in-memory database.
