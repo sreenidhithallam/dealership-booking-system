@@ -8,7 +8,7 @@
   <a href="https://graphql.org/">
     <img src="https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white" alt="Code Version">
   </a>
-   <a href="https://github.com/LokiJS-Forge/LokiDB">
+   <a href="https://github.com/techfort/LokiJS">
     <img src="https://img.shields.io/badge/LokiDB-E10029?style=for-the-badge&logo=lokidb&logoColor=white" alt="Code Version">
   </a>
   <a href="https://restfulapi.net/">
@@ -75,7 +75,7 @@ High level directory structure for this repository:
 - The application is also accessible via [Swagger UI](https://swagger.io/tools/swagger-ui/) Docs.
 
 - Backend is developed by [Node Js](https://nodejs.org/en/download/).
-- [LokiDB](https://github.com/LokiJS-Forge/LokiDB)  is used as an in-memory database.
+- [LokiDB](https://github.com/techfort/LokiJS) is used as an in-memory database.
 - [Prettier](https://prettier.io/) is used as a  code formatter.
 - [Eslint](https://eslint.org/) is used for lint-check.
 - [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/), [Sinon](https://sinonjs.org/) are used for testing.
