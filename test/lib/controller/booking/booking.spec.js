@@ -170,4 +170,22 @@ describe('test retrieveBookings function', function () {
         expect(response).to.deep.equal({ bookings: [bookingsData[2], bookingsData[3]] });
         dbOperations.getBookingsBasedOnDate.restore();
     });
+    it('should throw error when invalid VIN is provided as query param', function () {
+        req.query = {
+            VIN: '1234567890123456',
+        };
+
+        const response = retrieveBookings(req, res);
+
+        expect(response).to.deep.equal(errors.INVALID_VEHICLE_VIN);
+    });
+    it('should throw error when invalid booking datetime is provided as query param', function () {
+        req.query = {
+            bookingDateTime: '2021-09-28',
+        };
+
+        const response = retrieveBookings(req, res);
+
+        expect(response).to.deep.equal(errors.INVALID_BOOKING_DATE_TIME);
+    });
 });
