@@ -141,11 +141,13 @@ $ npm install
 ```
 $ npm start
 ```
-## Instructions to run testcases
+
+## Instruction to run test cases
 
 ```
-$ npm run  test:coverage
+$ npm run test:coverage
 ```
+
 ## EndPoints
 
 The project has been implemented with both REST and GraphQL.
