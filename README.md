@@ -210,9 +210,9 @@ Open the graphQL endpoint on: http://localhost:3000/graphql
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/exceedsCapacity.png)
   
   ### Fig 13 : Test case execution
-  ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/tests_1.png)
-  ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/tests_2.png)
-  ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/testCoverage.png)
+  ![Screenshot](https://github.com/sreenidhithallam/dealership-booking-system/blob/main/screenshots/test_case_1.png)
+  ![Screenshot](https://github.com/sreenidhithallam/dealership-booking-system/blob/main/screenshots/test_case_2.png)
+  ![Screenshot](https://github.com/sreenidhithallam/dealership-booking-system/blob/main/screenshots/test_coverage.png)
     
   ### Fig 14 : Swagger docs
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/swagger.png)
