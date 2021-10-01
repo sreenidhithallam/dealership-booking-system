@@ -174,7 +174,7 @@ Open the graphQL endpoint on: http://localhost:3000/graphql
   ### Fig 3 : Invalid booking capacity Value
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/invalidBookingCapacity.png)
  
-  ### Fig 4 : Get default bookings
+  ### Fig 4 : Get bookings default
   ![Screenshot](https://github.com/sreenidhithallam/vehicle-booking-system/blob/main/screenshots/getBookings_default.png)
  
   ### Fig 5 : Add valid booking
